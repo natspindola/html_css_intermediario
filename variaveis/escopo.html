@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Variaveis</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="escopo.css" />
+</head>
+<body>
+  Essa formatação cria um escopo.
+  <div>ABC</div> <span>DEF</span>
+  <div>ABC <span>DEF</span> </div>
+  
+  <br />
+  OBS: no primeiro exemplo não funcionou pois o span não estava dentro da div.
+  No segundo exemplo o span compartiha o escopo com o elemento pai, a div.
+</body>
+</html>

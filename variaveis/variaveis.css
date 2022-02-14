@@ -1,6 +1,12 @@
 div{
     --minha-cor: red;
+    background-color: var(--minha-cor);
  }
- span{
-    color: var(--minha-cor);
- }
+
+.a1{
+    border: 1px solid --minha-cor;
+}
+
+.a2 {
+    border: 5px solid --minha-cor;
+}
