@@ -1,0 +1,6 @@
+div{
+    --minha-cor: red;
+ }
+ span{
+    color: var(--minha-cor);
+ }
