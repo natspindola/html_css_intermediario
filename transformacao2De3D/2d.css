@@ -1,0 +1,48 @@
+.ex1{
+    height: 200px;
+    width: 400px;
+    background-color: red;
+    border: 5px solid black;
+    transform: translate(50px, 100px);
+ }
+
+ .ex2{
+    height: 200px;
+    width: 400px;
+    background-color: red;
+    border: 5px solid black;
+    transform: rotate(20deg);
+ }
+
+ .ex3{
+    height: 200px;
+    width: 400px;
+    background-color: red;
+    border: 5px solid #000000;
+    transform: rotate(10deg);
+    transform-origin: bottom left;
+ }
+
+ .ex4{
+    height: 200px;
+    width: 400px;
+    background-color: red;
+    border: 5px solid black;
+    transform: scale(1.5, 0.4);
+ }
+
+ .ex5{
+    height: 200px;
+    width: 400px;
+    background-color: red;
+    border: 5px solid black;
+    transform: skew(20deg, 10deg);
+ }
+
+ .ex6{
+    height: 200px;
+    width: 400px;
+    background-color: red;
+    border: 5px solid black;
+    transform: matrix(1, -0.3, 0, 1, 0, 0);
+ }
