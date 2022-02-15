@@ -1,0 +1,19 @@
+.ex1{
+    height: 200px;
+    background: linear-gradient( to right, red, green, yellow, blue );
+ }
+
+ .ex2{
+    height: 200px;
+    background:  linear-gradient( to right, rgb(146, 58, 73), rgb(25, 240, 71) )
+ }
+
+ .ex3{
+    height: 200px;
+    background:  linear-gradient( to top right, rgb(170, 55, 14), darkgray )
+ }
+
+ .ex4{
+    height: 200px;
+    background:  linear-gradient( to left, orange, cyan )
+ }
