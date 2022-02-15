@@ -1,0 +1,19 @@
+.ex1{
+    height: 200px;
+    background: radial-gradient(red, green);
+ }
+
+ .ex2{
+    height: 200px;
+    background: radial-gradient( closest-side, red, green);
+ }
+
+ .ex3{
+    height: 200px;
+    background: radial-gradient( farthest-corner, red, green);
+ }
+
+ .ex4{
+    height: 200px;
+    background: radial-gradient( farthest-side, red, green);
+ }
