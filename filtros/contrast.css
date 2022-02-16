@@ -1,0 +1,7 @@
+.ex {
+    filter: contrast(250%);
+}
+
+.ex2 {
+    filter: contrast(50%);
+}
