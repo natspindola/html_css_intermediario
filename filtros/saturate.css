@@ -1,0 +1,7 @@
+.ex{
+    filter: saturate(0%);
+}
+
+.ex2{
+    filter: saturate(50%);
+}
