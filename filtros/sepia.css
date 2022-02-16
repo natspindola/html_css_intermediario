@@ -1,0 +1,7 @@
+.ex{
+    filter: sepia(100%);
+}
+
+.ex2{
+    filter: sepia(50%);
+}
