@@ -1,0 +1,7 @@
+.ex{
+    filter: hue-rotate(130deg);
+}
+
+.ex2{
+    filter: hue-rotate(50deg);
+}
