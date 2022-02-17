@@ -1,0 +1,35 @@
+div{
+    position: absolute;
+    border: 5px solid black;
+    background-color: red;
+    width: 200px;
+    height: 100px;
+ }
+ 
+ div:hover{
+    width: 300px;
+ }
+
+.ex1{
+    transition: all 1s ease;
+}
+
+.ex2{
+    transition: all 1s ease-in;
+}
+
+.ex3{
+    transition: all 1s ease-out;
+}
+
+.ex4{
+    transition: all 1s ease-in-out;
+}
+
+.ex5{
+    transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.ex6{
+    transition: all 1s linear;
+}
