@@ -5,7 +5,7 @@ div{
     width: 200px;
     height: 100px;
  
-    transition: width 1s;
+    transition: width 1s, background-color 1s;
  }
  
  div:hover{
