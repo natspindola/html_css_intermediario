@@ -1,0 +1,14 @@
+div{
+    display: inline-block;
+    height: 50px;
+  }
+  
+  .d1{
+    width: 20%;
+    background-color: red;
+  }
+  
+  .d2{
+    width: 80%;
+    background-color: green;
+  }
