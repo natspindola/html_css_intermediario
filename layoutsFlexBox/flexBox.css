@@ -1,4 +1,10 @@
-.container{
+.item{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+}
+
+.container1{
     background-color: green;
     flex-direction: row-reverse;
     width: 200px;
@@ -7,8 +13,20 @@
     display: flex;
 }
 
-.item{
-    background-color: red;
-    width: 50px;
-    height: 50px;
+.container2{
+    background-color: green;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #c3c3c3;
+    display: flex;
+}
+
+.container3{
+    background-color: green;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #c3c3c3;
+    display: flex;
 }
