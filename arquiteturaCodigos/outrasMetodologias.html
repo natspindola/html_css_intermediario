@@ -6,10 +6,10 @@
   <link rel="stylesheet" href="bem.css" />
 </head>
 <body>
-    <p><u><b>DRY CSS</b></u></p>
+    <h2><u><b>DRY CSS</b></u></h2>
     A sigla DRY vem de Don’t Repeat Yourself (não se repita). Aqui é sugerido que a gente não repita uma propriedade com o mesmo valor.
 
-    <p><u><b>SMACSS</b></u></p>
+    <h2><u><b>SMACSS</b></u></h2>
     Scalable and Modular Architecture for CSS. É uma das arquiteturas mais utilizadas. Nos baseamos em cinco categorias principais,
     das quais normalmente criamos um diretório para cada uma: base, layout, module, state e theme. <br />
 
@@ -18,5 +18,16 @@
     <b>MODULE</b>: Aqui teremos a declaração de classes reutilizáveis em forma de componentes como menu, calendário, listas, tabelas, etc. <br />
     <b>STATE</b>: É onde declaramos classes que determinam o estado de um elemento, como visible, active, collapsed, hidden, enabled, etc. <br />
     <b>THEME</b>: Essa categoria serve para páginas onde podemos criar mais de uma versão do mesmo layout ou permitir que o usuário mude o tema da página, alterando as cores, fontes, imagens, etc. <br />
+
+    <h2><u><b>ITCSS</b></u></h2>
+    No ITCSS temos várias camadas, que são imaginadas em um triângulo invertido. Quando mais acima, menos específica a regra. Quanto mais abaixo, mais específica, e por tanto, irá sobrescrever as regras anteriores. <br />
+    <b>SETTINGS</b>: É onde declaramos as configurações do nosso projeto, como variáveis de medidas, cores, etc. <br />
+    <b>TOOLS</b>:É onde colocamos funções, mixings, placeholders, etc presentes nos Pré Processadores. Se não estiver utilizando algum Pré Processador, esta camada não será utilizada. <br />
+    <b>GENERICS</b>: Essa camada é para as propriedades com a menor especificidade. Por isso, o mais comum aqui é o seletor "*". <br />
+    <b>BASE</b>: Essa camada é voltada para estilizações mais básicas dos elementos. Então, nada de IDs ou Classes, apenas o seletor de tags. <br />
+    <b>OBJECTS</b>: Aqui utilizamos apenas classes. É onde declaramos a estilização da estrutura dos nossos elementos. <br />
+    <b>COMPONENTS</b>: Na camada anterior nós tentamos ser mais genéricos. Agora na camada Components nós podemos ser mais específicos quanto a estilização do elemento. Também só são permitidas classes. <br />
+    <b>TRUMPS</b>: Esta camada tem as regras com a maior especificidade de todas, ou seja, se uma classe daqui for colocada em um elemento, as propriedades de uma classe da camada Trumps irá sobrescrever as propriedades declaradas em outras camadas. Aqui é permitido o uso de !important. <br />
+
 </body>
 </html>
