@@ -1,0 +1,12 @@
+.botao{
+    width: 200px;
+    height: 50px;
+ }
+ .primario{
+    color: white;
+    background-color: #0062ac;
+ }
+ .secundario{
+    color: #252525;
+    background-color: #f2f2f2;
+ }
