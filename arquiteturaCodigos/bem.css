@@ -1,0 +1,13 @@
+.botao{
+    height: 45px;
+    width: 50px;
+}
+
+.botao__label{
+    font-style: italic;
+}
+
+.botao--azul{
+    background-color: blue;
+}
+
