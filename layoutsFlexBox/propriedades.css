@@ -1,0 +1,79 @@
+.grow {
+    display: flex;
+    align-items: stretch;
+    background-color: #f1f1f1;
+  }
+  
+.grow>div {
+    background-color: DodgerBlue;
+    color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.shrink{
+    display: flex;
+    align-items: stretch;
+    background-color: #f1f1f1;
+}
+      
+.shrink>div {
+    background-color: DodgerBlue;
+    color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.basis{
+    display: flex;
+    align-items: stretch;
+    background-color: #f1f1f1;
+}
+      
+.basis>div {
+    background-color: DodgerBlue;
+    color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.flex{
+    display: flex;
+    align-items: stretch;
+    background-color: #f1f1f1;
+}
+      
+.flex>div {
+    background-color: DodgerBlue;
+    color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.align-self{
+    display: flex;
+    height: 200px;
+    background-color: #f1f1f1;
+}
+      
+.align-self>div {
+    background-color: DodgerBlue;
+    color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
