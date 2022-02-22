@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cookies</title>
+    <meta charset="utf-8" />
+</head>
+
+<body>
+    Diferentes dos Cookies, os dados no WebStorage não são enviados ao servidor e nem possuem uma data de expiração.
+    O WebStorage nos oferece dois objetos para se trabalhar: "localStorage" e "sessionStorage".
+    O "localStorage" é permanente e se você estiver com mais de uma janela na mesma página, os valores armazenados serão compartilhados entre as páginas.
+    O "sessionStorage" armazena os valores enquanto a janela estiver aberta. Ao fechar, os valores serão apagados. Os valores não são compartilhados entre janelas como o "localStorage".
+
+    <script type="text/javascript">
+        localStorage.setItem("nome", "natalia");
+        localStorage.nome = "TreinaWeb";
+        localStorage.getItem("nome");
+    </script>
+
+</body>
+
+</html>
