@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cookies</title>
+    <meta charset="utf-8" />
+</head>
+
+<body>
+    Os Cookies foram criados para armazenar algumas informações do usuário e enviá-las ao servidor.
+    Por isso são utilizados para armazenar algumas informações sobre login, para que o usuário permaneça logado ao
+    fechar o navegador.
+    Os Cookies são armazenados em uma string onde há o nome, valor e data de expiração. Quando a data é atingida, o
+    Cookie é apagado automaticamente.
+    Todo Cookie é enviado ao servidor automaticamente.
+
+    <script type="text/javascript" src="cookies.js"></script>
+
+    <script type="text/javascript">
+        setCookie("empresa", "treinaWeb", 360);
+
+        var empresa = getCookie("empresa");
+    </script>
+
+</body>
+
+</html>
