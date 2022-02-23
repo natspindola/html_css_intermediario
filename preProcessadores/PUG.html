@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>PUG para HTML</title>
+    <meta charset="utf-8" />
+</head>
+
+<body>
+    O HTML também possui Pré Processadores, além de tentar facilitar a criação de HTML, estes Pré Processadores também
+    tentam fazer com que o nosso código seja mais limpo, sem repetições e fácil de ler.
+    Por isso eles normalmente possuem uma sintaxe bem diferente do HTML. No fim teremos HTML, já que é ele que o
+    navegador consegue interpretar.
+
+    <p><b>Exemplo de código no PUG:</b></p>
+    div#minhaDiv.classe1.classe2 Meu Conteúdo <br />
+
+    ul <br />
+    li <br />
+    li <br />
+
+    input( <br />
+    type='checkbox' <br />
+    name='agreement' <br />
+    checked <br />
+    ) <br />
+
+    ul <br />
+    each numero in [1, 2, 3, 4, 5] <br />
+    li= numero <br />
+
+    - var isOpen = true <br />
+    div <br />
+    if isOpen <br />
+    span Aberto <br />
+    else <br />
+    span Fechado <br />
+    
+    <p><b>Como ficaria no HTML:</b></p>
+    < div class="classe1 classe2" id="minhaDiv">Meu Conteúdo</ div> <br />
+< ul> <br />
+    < li></ li> <br />
+    < li></ li> <br />
+</ ul> <br />
+< input type="checkbox" name="agreement" checked="checked" /> <br />
+< ul> <br />
+    < li>1</ li> <br /> 
+    < li>2</ li> <br />
+    < li>3</ li> <br />
+    < li>4</ li> <br />
+    < li>5</ li> <br />
+</ ul> <br />
+< div>< span>Aberto</ span></ div> <br />
+
+</body>
+
+</html>
