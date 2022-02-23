@@ -1,0 +1,8 @@
+#myCircle{
+    stroke: blue;
+    stroke-width: 10;
+    fill: yellow;
+    cx: 100;
+    cy:   100;
+    r: 50;
+ }
